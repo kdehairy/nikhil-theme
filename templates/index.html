@@ -10,9 +10,10 @@
           <span class="text-muted">{{article.locale_date}}</span>
         </div>
         <div class="col-sm-9">
+						<div class="article-title">
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}" class="article-title">{{ article.title|striptags }}</a>
+						</div>
           <p>
-            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title|striptags }}</a>
-            <br/>
             {{ article.summary|striptags }}
           </p>
         </div>

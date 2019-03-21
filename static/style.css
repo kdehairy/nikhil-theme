@@ -54,6 +54,15 @@ body {
 	}
 }
 
+.row {
+	margin-bottom: 25px;
+}
+
+.article-title {
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
 .entry-content {
   padding:15px 0;
   line-height:1.8;
